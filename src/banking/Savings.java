@@ -1,5 +1,7 @@
 package banking;
 
+import banking.exceptions.DepositWithdrawTransferAmountNotPositiveException;
+
 public class Savings extends Account {
 	
 	private double intRate = 0.02;
